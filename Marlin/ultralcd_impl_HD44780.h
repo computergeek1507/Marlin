@@ -443,7 +443,7 @@ static void lcd_implementation_init(
   #elif ENABLED(LCD_I2C_TYPE_MCP23017)
     lcd.setMCPType(LTI_TYPE_MCP23017);
     lcd.begin(LCD_WIDTH, LCD_HEIGHT);
-    lcd_implementation_update_indicators();
+    lcd.setBacklight(0);
 
   #elif ENABLED(LCD_I2C_TYPE_MCP23008)
     lcd.setMCPType(LTI_TYPE_MCP23008);

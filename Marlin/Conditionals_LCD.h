@@ -211,9 +211,9 @@
 
   // PANELOLU2 LCD with status LEDs, separate encoder and click inputs
 
-  #define LCD_I2C_TYPE_MCP23017
-  #define LCD_I2C_ADDRESS 0x20 // I2C Address of the port expander
-  #define LCD_USE_I2C_BUZZER   // Enable buzzer on LCD (optional)
+  #define LCD_I2C_TYPE_MCP23008
+  #define LCD_I2C_ADDRESS 0x00 // I2C Address of the port expander
+  //#define LCD_USE_I2C_BUZZER   // Enable buzzer on LCD (optional)
   #define ULTIPANEL
 
 #elif ENABLED(LCD_I2C_VIKI)

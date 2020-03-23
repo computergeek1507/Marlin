@@ -86,6 +86,12 @@
 #if ANY_THERMISTOR_IS(15) // JGAurora A5 thermistor calibration
   #include "thermistortable_15.h"
 #endif
+#if ANY_THERMISTOR_IS(30) // Epcos B57560G104F on Mendel90 JHead V-B
+  #include "thermistortable_30.h"
+#endif
+#if ANY_THERMISTOR_IS(31) // Epcos B57861S104F40 on Mendel90 bed
+  #include "thermistortable_31.h"
+#endif
 #if ANY_THERMISTOR_IS(20) // PT100 with INA826 amp on Ultimaker v2.0 electronics
   #include "thermistortable_20.h"
 #endif
