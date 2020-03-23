@@ -20,7 +20,7 @@
  *
  */
 
-#if ANY_THERMISTOR_IS(31) // Epcos B57861S104F40 on Mendel90 bed
+// Epcos B57861S104F40 on Mendel90 bed
  const short temptable_31[][2] PROGMEM = {
   {   982, 200 }, // r=   300 adc=61.38
   {  1091, 195 }, // r=   336 adc=68.19
